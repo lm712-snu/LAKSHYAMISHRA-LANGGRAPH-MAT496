@@ -154,3 +154,6 @@ I implemented a **Sales Research Sub-Graph** where each sub-graph handles specif
 [View code here](./sub-graph-updated.ipynb)
 
 ---
+
+<img width="1265" height="902" alt="image" src="https://github.com/user-attachments/assets/5e559947-809a-421b-b54e-bd6e64445f0d" />
+
