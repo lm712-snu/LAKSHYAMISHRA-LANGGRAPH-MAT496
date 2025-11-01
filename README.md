@@ -107,3 +107,56 @@ Video 5 - Time Travel
 Learnt Time travel enables debugging through state history inspection using get_state_history() allowing replay of past execution states and forking to create alternate execution path from any checkpoint without losing the original execution branch.
 
 What's Changed: Enhanced the mathematical toolkit by adding power , modulo and subtract functions, also updated the system message to better prompt to get better presition.
+
+# Module 4 
+
+This repository contains my modified examples and learnings from **Module 4** of the course.  
+Each notebook corresponds to one concept demonstrated in the videos.
+
+---
+
+## 1️⃣ Video 1 – Map Reduce
+**What I learned:**  
+I learned how the MapReduce paradigm in LangGraph helps break down complex language model tasks into smaller sub-tasks (map phase) and combine their outputs into a final summary (reduce phase). It shows how distributed processing concepts apply to LLM workflows.
+
+**My Tweaks:**  
+I modified the original MapReduce example to create a **Sales Analysis edition**, where the map step analyzes individual sales records and the reduce step aggregates insights into a summary report.  
+[View code here](./map-reduce.ipynb)
+
+---
+
+## 2️⃣ Video 2 – Parallelization
+**What I learned:**  
+I explored how to use LangGraph’s parallel execution framework to perform multiple LLM calls simultaneously. This approach helps handle CPU- or API-bound workloads efficiently by running several analysis tasks in parallel.
+
+**My Tweaks:**  
+I created a **parallel product sales analysis** example that runs multiple product reports concurrently using LLM calls, instead of a basic arithmetic or factorial example.  
+[View code here](./parallelization-updated.ipynb)
+
+---
+
+## 3️⃣ Video 3 – Research Assistant (Automation)
+**What I learned:**  
+I learned how to combine Map-Reduce and Parallelization concepts to build a multi-agent Research Assistant. It shows how different agents (e.g., data retriever, summarizer, and reporter) can work together using pipelines and parallel nodes.
+
+**My Tweaks:**  
+I developed a **Sales Intelligence Research Assistant** that automatically gathers and summarizes product insights in parallel using multiple agent nodes.  
+[View code here](./research-assistant-updated.ipynb)
+
+---
+
+## 4️⃣ Video 4 – Sub-Graph Analysis
+**What I learned:**  
+I understood how to create and manage **sub-graphs** within a larger LangGraph workflow. Sub-graphs modularize the workflow, allowing independent execution of smaller agent systems while maintaining communication with the main process.
+
+**My Tweaks:**  
+I implemented a **Sales Research Sub-Graph** where each sub-graph handles specific analysis functions—like customer feedback or sales trends—and integrates the results into the main graph.  
+[View code here](./sub-graph-updated.ipynb)
+
+---
+
+## 🧩 Commit History Note
+Each commit in this repository corresponds to a specific **video** and includes:
+- A descriptive commit message summarizing what was learned  
+- The tweaks made to the original source code
+
