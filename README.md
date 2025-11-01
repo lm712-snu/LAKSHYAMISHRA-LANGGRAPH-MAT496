@@ -115,7 +115,7 @@ Each notebook corresponds to one concept demonstrated in the videos.
 
 ---
 
-## 1️⃣ Video 1 – Map Reduce
+##  Video 1 – Map Reduce
 **What I learned:**  
 I learned how the MapReduce paradigm in LangGraph helps break down complex language model tasks into smaller sub-tasks (map phase) and combine their outputs into a final summary (reduce phase). It shows how distributed processing concepts apply to LLM workflows.
 
@@ -125,7 +125,7 @@ I modified the original MapReduce example to create a **Sales Analysis edition**
 
 ---
 
-## 2️⃣ Video 2 – Parallelization
+##  Video 2 – Parallelization
 **What I learned:**  
 I explored how to use LangGraph’s parallel execution framework to perform multiple LLM calls simultaneously. This approach helps handle CPU- or API-bound workloads efficiently by running several analysis tasks in parallel.
 
@@ -135,7 +135,7 @@ I created a **parallel product sales analysis** example that runs multiple produ
 
 ---
 
-## 3️⃣ Video 3 – Research Assistant (Automation)
+##  Video 3 – Research Assistant (Automation)
 **What I learned:**  
 I learned how to combine Map-Reduce and Parallelization concepts to build a multi-agent Research Assistant. It shows how different agents (e.g., data retriever, summarizer, and reporter) can work together using pipelines and parallel nodes.
 
@@ -145,7 +145,7 @@ I developed a **Sales Intelligence Research Assistant** that automatically gathe
 
 ---
 
-## 4️⃣ Video 4 – Sub-Graph Analysis
+##  Video 4 – Sub-Graph Analysis
 **What I learned:**  
 I understood how to create and manage **sub-graphs** within a larger LangGraph workflow. Sub-graphs modularize the workflow, allowing independent execution of smaller agent systems while maintaining communication with the main process.
 
@@ -154,9 +154,3 @@ I implemented a **Sales Research Sub-Graph** where each sub-graph handles specif
 [View code here](./sub-graph-updated.ipynb)
 
 ---
-
-## 🧩 Commit History Note
-Each commit in this repository corresponds to a specific **video** and includes:
-- A descriptive commit message summarizing what was learned  
-- The tweaks made to the original source code
-
