@@ -2,7 +2,10 @@
 
 
 
-Module 1
+# Module 1
+
+
+
 Video 1 - Motivation:
 We learned that LangGraph lets us combine the reliability of fixed control flows (chains) with flexibility of agents. It enables building structured customizable and partially autonomous AI systems. (There is no code for this video)
 
@@ -45,7 +48,9 @@ What's changed: Added more new tools(like sqrt, subtract, power, mod) and bound 
 <img width="1443" height="828" alt="1760637650050" src="https://github.com/user-attachments/assets/f8cff839-672e-45a3-b545-409444ba2e69" />
 
 
-Module 2
+# Module 2
+
+
 Video 1 - Simple Schema
 Learnt about typed state schemas, TypedDict, dataclass, Pydantic, which lets every node share a consistent contact so LangGraph graphs stay predictable.
 
@@ -76,7 +81,8 @@ Learnt how to use external checkpointers such as Sqlite persist every thread’s
 
 What's Changed: Renamed the in state summary field to running outline and updated the prompts and helpers to reference it.
 
-Module 3
+# Module 3
+
 Video 1 - Streaming
 Learnt about multiple streaming modes like values mode(streams the full graph state after each node executes)), updates mode(streams only the changes to state after each node), messages mode(for message based workflows), astream_events(real time token)
 
