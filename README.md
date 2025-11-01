@@ -16,7 +16,7 @@ We learnt how to use the langgraph studio UI in the browser and visualise the no
 
 What's changed: Played around with creating new assistant, looked at recursion limit when creating assistant.
 
-1760634605061
+176
 
 Video 4 - Chain
 Learnt using messages as a state which lets us use chat models and tools interact in a structured, appadable conversation (MessageState + add_messages), Also learnt binding tools to a chat model enables the model to request and execute structured tool calls and then include tool's output back into the message stream.
@@ -28,7 +28,7 @@ Learnt how graph can route b/w direct LLM response and tool execution by inspect
 
 What's changed: Added a post processed print output with emoji, and worked aroudn with langgraph ui better.
 
-1760636632694
+176
 
 Video 6 - Agent
 Learnt how a ReAct style loop lets the mdoel call toold, observe tool outputs, and reason further by feeding tool response back intp the assistant node, also learnt on using MessageState with tool binding, also learnt on how to inspect the output of this in langsmith.
@@ -40,7 +40,7 @@ Learnt how to add memory to the agent.
 
 What's changed: Added more new tools(like sqrt, subtract, power, mod) and bound them to the LLM, and also tested langgraph ui for agents with multiple examples.
 
-1760637650050
+176
 
 Module 2
 Video 1 - Simple Schema
